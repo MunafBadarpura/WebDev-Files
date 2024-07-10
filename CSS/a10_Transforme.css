@@ -1,0 +1,45 @@
+section{
+    margin-top:100px;
+}
+div{
+    width:200px ;
+    height:50px ;
+    text-align:center ;
+    background-color:#7aa874 ;
+    border:2px solid black ;
+    margin:10px auto ;
+}
+div:nth-of-type(2){
+  background-color:#f7db6a;  
+}
+
+div:nth-of-type(4){
+    background-color:#ebb02d ;  
+  }
+
+  /* TRANSFORM */
+/* (1)Rotate */
+#one{
+    transform:rotate(-45deg)
+}
+
+/* (2)Scale */
+#two{
+    transform: scale(0.7,1);  /*(X-axis , Y-axis) */
+} 
+
+/* (3)Scale */
+#three{
+    transform: translate(100px,10px);  /*(X-axis , Y-axis) */
+}
+
+/* (4)Skew */
+#four{
+    transform: skew(45deg);  /*(00deg) */
+}
+
+/* (5)Skew */
+#five{
+    transform:rotate(-45deg);
+}
+

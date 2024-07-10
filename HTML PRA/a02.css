@@ -1,0 +1,79 @@
+*{
+    /* background-color: aquamarine; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+h2{
+    text-align: center;
+    text-decoration:underline 2px black;
+}
+
+.login{
+    height: 800px;
+    width: 600px;
+    background-color: white;
+    margin: auto;
+}
+
+label{
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#name,#age,#mail{
+    height: 40px;
+    width: 80%;
+    margin-top: 5px;
+    margin-left: 30px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+#yes,#no{
+    margin-top: 15px;
+    float:left;
+    margin-right: 10px;
+}
+
+#sugg{
+    height: 100px;
+    width: 80%;
+    margin-top: 5px;
+    margin-left: 30px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+
+select{
+    height: 40px;
+    width: 80%;
+    margin-top: 5px;
+    margin-left: 30px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+button{
+    margin: 10px auto;
+    padding: 10px;
+    height: 50px;
+    width: 100px;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: green;
+    color: white;
+    text-align: center;
+    display: flex;
+}

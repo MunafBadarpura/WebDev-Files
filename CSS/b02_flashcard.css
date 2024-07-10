@@ -1,0 +1,18 @@
+/* h1{
+    background-color: aqua;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+} */
+div{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+
+
+}
+img{
+    width: 100%;
+}

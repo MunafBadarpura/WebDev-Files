@@ -1,0 +1,12 @@
+#outer{
+    height: 400px;
+    width: 400px;
+    background-color: cornflowerblue;
+    margin: 20px;
+}
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: lightgreen;
+    margin: 20%;   /* 40px ho jaaegi , outer div k height ka 10% = 40 hoga*/
+}

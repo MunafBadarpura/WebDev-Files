@@ -1,0 +1,10 @@
+div{
+    width:100% ;
+    height:700px ;
+    text-align:center ;
+    background-color:#7aa874 ;
+    margin: 0 auto;
+    background-image: url("dra.jpg");
+    background-size: cover;  /*AUTO CONTAIN COVER */
+
+}

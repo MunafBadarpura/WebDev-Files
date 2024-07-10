@@ -1,0 +1,14 @@
+span{
+    border:2px solid black;
+    height: 200px;  /* Not Work*/
+    width: 300px;   /* Not Work*/
+    padding: 25px;   /* ONLY WORK FOR LEFT AND RIGHT*/
+    margin: 25px;   /* ONLY WORK FOR LEFT AND RIGHT*/
+}
+div{
+    border:2px solid black;
+    height: 200px;  /* Not Work*/
+    width: 300px;   /* Not Work*/
+    padding: 25px;   /* ONLY WORK FOR LEFT AND RIGHT*/
+    margin: 25px;   /* ONLY WORK FOR LEFT AND RIGHT*/
+}

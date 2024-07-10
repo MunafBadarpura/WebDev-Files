@@ -1,0 +1,39 @@
+/* text-align: ;
+text-decorartion: ;
+latter-spacing: px; */
+
+/* font-weight: ;
+font-family: ; */
+
+/* line-hight: ; */
+
+
+h1{                                                                
+    text-align:center;
+    text-decoration:wavy red underline;
+    letter-spacing:2px;
+    font-weight:300;
+    font-family:impact;
+
+}
+p{
+     text-align: justify;
+     font-weight:bold; /*700 */
+     text-decoration:blue double line-through;
+     line-height: 2.5;
+     letter-spacing: 3px;
+     font-size: 20px;
+
+}
+h2{
+    text-align: right;
+    font-weight:900;
+    text-decoration:pink overline 10px;
+    font-family: arial;
+}
+a{
+    text-decoration: none;
+}
+
+
+

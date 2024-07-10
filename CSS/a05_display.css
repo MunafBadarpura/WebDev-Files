@@ -1,0 +1,24 @@
+h2{
+    display:inline;
+}
+span{
+    display:block
+}
+
+div{
+    /* display: inline;   NOT SUPPOORT CSS */
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: solid 2px black;
+    margin: 5px;
+    background-color: green;
+}
+
+#third{
+     display: none;   /*GAYAB KAR */
+}
+
+a{
+    display:block;
+}

@@ -1,0 +1,49 @@
+#box{
+    height: 300px;
+    width: 300px;
+    background-color:aqua;
+    border:2px solid black;
+}
+
+#round{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+#Reye{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    bottom: 85px;
+    left: 80px;
+
+}
+
+#Leye{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    bottom: 112px;
+    left: 180px;
+
+}
+
+#smile{
+    height: 35px;
+    width: 70px;
+    background-color:rgb(154, 53, 53);
+    border-radius: 0 0 20px 20px;
+    position: relative;
+    bottom: 75px;
+    left: 110px;
+
+}

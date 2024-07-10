@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+}
+
+#outer{
+    height: 300px;
+    width: 80%;
+    background-color: azure;
+    border: 2px solid black; 
+    margin: 10px auto;
+    display: flex;   /*default column */
+    flex-direction:row;  /*row column row-reverse column-reverse */
+    justify-content:flex-start;      /*flex-start, flex-end, center, space-between, space-around, space-evenly*/
+    flex-wrap: wrap;   /* nowrap(default) , wrap , wrap-reverse*/
+    align-items: center;
+    align-content: flex-start;
+    
+ 
+}
+
+#outer div{
+    height: 50px;
+    width: 300px;
+}

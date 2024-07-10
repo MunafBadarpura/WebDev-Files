@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="a02.css">
+</head>
+<body>
+    <h1>COLLEGE SURVEY</h1>
+
+    <div class="login">
+        <h2>Fill This Form</h2>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="ff4917bb-5de6-4d98-b3f9-86cc2bb22cb2">
+
+            <label for="name">1. NAME :</label>
+            <input name="name" type="text" id="name" placeholder="Enter Your Full Name">
+
+            <label for="mail">2. E-mail :</label>
+            <input name="mail" type="text" id="mail" placeholder="Enter Your E-mail">
+
+            <label for="age">3. Age :</label>
+            <input name="age" type="number" id="age" placeholder="Enter Your Age">
+
+            <!-- <label for="language">Choose Proggraming Language You Want To Learn :</label>
+            <input type="option" id="language" placeholder="Choose Language"> -->
+
+            <label for="language">4. Choose Programing Language That You Want To Learn :</label>
+            <select name="language" id="language">
+                <option>SELECT</option>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JAVASCRIPT</option>
+                <option>C</option>
+                <option>C++</option>
+                <option>PYTHON</option>
+                <option>JAVA</option>
+            </select>
+
+            <label for="radio" id="beg">5. Are You Begiener :</label>
+
+            
+            <input name="radio" type="radio" id="yes">
+            <label for="radio">Yes</label>
+            <input name="radio" type="radio" id="no">
+            <label for="radio">No</label>
+
+            <label for="sugg">6. ANY SUGGETION :</label>
+            <input name="sugg" type="text" id="sugg" placeholder="Enter Your Suggestion">
+
+            <button>SUBMIT</button>
+        </form>
+    </div>
+</body>
+</html>
+
+

@@ -1,0 +1,7 @@
+button{
+    font-size: 20px;
+    border: black 2px solid;
+    border-radius: 5px;
+    padding: 0.5em; /* according to font size , 20*0.5=10px */
+    margin: 0.5em;  /* according to font size , 20*0.5=10px */
+}

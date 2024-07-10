@@ -1,0 +1,54 @@
+#container{
+    width: 600px;
+    height: 300px;
+    background-color: yellow;
+    display: inline-grid;
+/*  grid-template-rows:50px 50px 50px;
+    grid-template-columns: 200px 200px 200px;    */
+
+    grid-template-rows: repeat(3,1fr);   
+    grid-template-columns: repeat(4,1fr); 
+
+    row-gap: 10px;
+    column-gap: 10px;
+    /* SHORTHAND 
+    grid-gap: 10px 10px;
+    grid-gap:10px;  (THIS IS FOR BOTH )    */
+
+/*  For Horizontal    */    
+    /*justify-items: center;*/  /* start,end,center*/
+
+/*  For Vertical    */ 
+    /*align-items: center;*/  /* start,end,center*/
+
+/*  For Vertical    */ 
+    place-items: center;  /* FOR BOTH*/
+}
+
+.item{
+    width:100px;
+    height:50px;
+    background-color: aqua;
+    border:2px solid black;
+}
+
+.one{
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+
+    /* SHORTHAND 
+    grid-column:1/4;  */
+
+    /* with span 
+    grid-column: 2/2 span;   */
+
+    justify-self: end;
+
+
+}
+
+.two{
+    /*grid-row:1/4;  */
+    align-self: end;
+    place-self: start;
+}

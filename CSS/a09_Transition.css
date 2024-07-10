@@ -1,0 +1,29 @@
+/* div{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    transition-duration : 1s;
+    transition-delay: 0.5s;
+    display:inline-block
+    
+}
+
+div:hover{
+    background-color: gray;
+    border-radius: 50%;
+} */
+#second{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    /* transition-duration : 1s;
+    transition-delay: 0.5s;
+    margin-top: 10px; */
+    margin: 0 auto;
+    transition: margin-top 1s ease-in 0s;  /*  PROPERTY , DURATION , STYLE , DELAY */
+    
+}
+#second:hover{
+    background-color: gray;
+    margin-top: 400px;
+}

@@ -1,0 +1,151 @@
+*{
+    background-color:aquamarine;
+}
+b{
+    background-color: inherit;
+}
+strong{
+    background-color: inherit;
+}
+h1{
+    letter-spacing: 2px;
+    text-shadow: 2px 2px gray;
+    text-decoration: double black 2px underline;
+    text-align: center;
+    font-size: 50px;
+}
+img{
+    height: 400px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px goldenrod;
+    
+}
+
+.content{
+    margin-top: 20px;
+    text-align: center;
+    height: 900px;
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgreen;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+
+.footer{
+    margin-top: 5px;
+    text-align: right;
+}
+
+img:hover{
+    height: 410px;
+    width: auto;
+}
+
+h1:hover{
+    text-shadow: 3px 3px gray;
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+}
+h2:hover::after{
+    content:":)";
+}
+
+
+/* RESPONSIVE */
+/* * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px gray;
+    text-decoration: double underline;
+    text-align: center;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px goldenrod;
+}
+
+.content {
+    margin-top: 20px;
+    text-align: center;
+    height: auto;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgreen;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 20px;
+}
+
+.footer {
+    margin-top: 5px;
+    text-align: right;
+}
+
+img:hover {
+    height: auto;
+    max-width: 100%;
+}
+
+h1:hover {
+    text-shadow: 3px 3px gray;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h2:hover::after {
+    content: ":)";
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    img {
+        height: 300px;
+    }
+
+    .content {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    img {
+        height: 400px;
+    }
+
+    .content {
+        width: 60%;
+    }
+} */

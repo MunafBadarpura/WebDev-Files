@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+ <fieldset>
+    <form action="/server">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Enter Full Name">
+        </div>
+        <div>
+            <label for="father">Fathers Name</label>
+            <input type="text" id="father" placeholder="Enter Father's Name">
+        </div>
+        <div>
+            <label for="mother">Mothers Name</label>
+            <input type="text" id="mother" placeholder="Enter Mother's Name">
+        </div>
+        <br>
+        <div>
+            <label for="mail">E-mail</label>
+            <input type="email" id="mail" placeholder="Enter E-mail">
+        </div>
+        <div>
+            <label for="number">Contact Number</label>
+            <input type="number" id="number" placeholder="+91 XXXXXXXXXX">
+        </div>
+        <br>
+        <div>
+            Enter Your Gender : <br>
+            <input type="radio" name="gender" id="male" value="ml"> 
+            <label for="male">Male</label> <br>
+            <input type="radio" name="gender" id="female" value="fl"> 
+            <label for="female">Female</label> <br>
+            <input type="radio" name="gender" id="other" value="oth"> 
+            <label for="other">Other</label> <br>
+        </div>
+        <div>
+            <label for="dob">Enter Date-of-Birth</label>
+            <input type="date" id="dob" >
+        </div>
+        <div>
+            <label for="add">Enter Your Address</label>
+           <textarea id="add" cols="20" rows="2" placeholder="Give Your Address"></textarea> 
+        </div>
+        <div>
+            Choose Your Standard : 
+            <select name="std" id="std">
+                <option>Select</option>
+                <option value="9">09th</option>
+                <option value="10">10th</option>
+                <option value="11">11th</option>
+                <option value="12">12th</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Select Cource :  <br>
+             <input type="checkbox" id="c">
+             <label for="c">HTML</label> <br>
+             <input type="checkbox" id="c">
+             <label for="c">CSS</label> <br>
+             <input type="checkbox" id="c">
+             <label for="c">JAVA SCRIPT</label> <br>
+        </div>
+        <br>
+        <div>
+            <label for="photo">Upload Your Photo : </label> <br>
+            <input type="file">
+        </div>
+        <br>
+        <inpuT type="checkbox" id="terms">
+            <label="terms" style="color: blue;">*I AGREE TERMS AND CONDITION</label>            
+ </fieldset>
+        <br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>

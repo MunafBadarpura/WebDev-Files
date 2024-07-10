@@ -1,0 +1,17 @@
+#mainTopic{
+    color: blue;
+}
+*{
+    text-align: center;
+}
+.heading{
+    font-family: Georgia;
+}
+.par{
+    color: white;
+    background-color: cornflowerblue;
+}
+div button{
+    color: azure;
+    background-color: purple;
+}

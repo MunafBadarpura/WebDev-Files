@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        body,html{
+            height: 100%;
+            width: 100%;
+        }
+        #main{
+            height: 100%;
+            width: 100%;
+        }
+        .cards{
+            position: absolute;
+            top: 50%; 
+            left: 50%;
+            /* transform: translate(-50%,-50%); */
+            height: 330px;
+            width: 240px;
+            border: 2px solid salmon;
+            border-radius: 18%;
+            overflow: hidden;
+        }
+        #card1{
+            z-index: 3;
+            transform: translate(-50%,-50%);
+            background-color: orange;
+        }
+        #card2{
+            z-index: 2;
+            transform: translate(-50%,-50%) rotate(-10deg);
+            background-color: green;
+        }
+        #card3{
+            transform: translate(-50%,-50%) rotate(-20deg);
+            z-index: 1;
+            background-color: gold;
+        }
+        #card4{
+            transform: translate(-50%,-50%) rotate(-30deg);
+            z-index: 0;
+            background-color: brown;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+        }
+        #card1:hover{
+            z-index: 5;
+        }
+        #card2:hover{
+            z-index: 5;
+        }
+        #card3:hover{
+            z-index: 5;
+        }
+        #card4:hover{
+            z-index: 5;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="card1" class="cards">
+            <img src="https://images.unsplash.com/photo-1685360798969-395cf93b7d2d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" >
+        </div>
+        <div id="card2" class="cards">
+            <img src="https://images.unsplash.com/photo-1633069404479-2a8aa9526ea6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" >
+        </div>
+        <div id="card3" class="cards">
+            <img src="https://images.unsplash.com/photo-1558630727-d9bb19ad153a?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" >
+        </div>
+        <div id="card4" class="cards">
+            <img src="https://images.unsplash.com/photo-1641492516424-0348c3072884?q=80&w=1987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </div>
+    </div>
+</body>
+</html>

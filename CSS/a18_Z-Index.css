@@ -1,0 +1,25 @@
+/* Z INDEX ONLY WORK WHEN POSITION DIFIEND FOR ELEMENT */
+/* DEFAULT Z INDEX IS "auto" (0) . */
+/* Z INDEX IS POSOTIVE (+1) NEGATIVE (-1) AND DEFAULT(0) */
+
+.box{
+    height:100px;
+    width:100px;
+    background-color:aqua;
+    border:2px solid black;
+    text-align: center;
+}
+
+.one{
+    background-color: blueviolet;
+    position:relative;
+    z-index: 1;
+
+}
+
+.two{
+    background-color: aquamarine;
+    position: relative;
+    bottom: 50px;
+    z-index: 2;
+}

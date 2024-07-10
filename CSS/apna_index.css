@@ -1,0 +1,100 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightblue;
+}
+h1,h3{
+    color:#b92b27;
+}
+#login{
+    background-color: white;
+}
+#signup{
+    background-color: #b92b27;
+    color: black;
+}
+.upvote{
+    color:black;
+    background-color: green;
+}
+
+/* descrandent selector */
+.post a{
+    color:purple;
+    background-color: yellow;
+}
+nav a{
+    color: red;
+}
+
+/* adjesent sibling combinator */
+p+h3{
+    text-decoration: dotted underline;
+}
+
+.upvote + button{
+    color:fuchsia;
+    background-color: maroon;
+}
+/* child combinator */
+div>input{
+    background-color:yellow;
+}
+
+/* attribute selector */
+input[type="text"]{
+    color: green;
+    font-weight: 900;
+}
+input[type="password"]{
+    color: red;
+}
+input[type="placeholder"]{
+    font-weight: bolder;
+}
+
+/*   PSEUDO CLASS 
+ element / groupof element:class{
+    //code
+}                                */
+button:hover{
+    color: white;
+    background-color: black;
+}
+h3:hover{
+    text-decoration:none;
+}
+
+/* when click */
+button:active{
+    background-color: blue;
+}
+p:active{
+    font-weight: bold;
+}
+
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+
+h3:nth-of-type(1n){
+    background-color: rgb(197, 148, 74);
+}
+
+                                    /* PSUEDO ELEMENT */
+h1::first-letter{
+    color: black;
+    background-color: white;
+}
+
+span p::first-line{
+    background-color: black;
+    color: blue;
+}
+
+span p::selection{
+    background-color: aliceblue;
+}
+
+
+
